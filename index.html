@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weather-box">
+      <form id="search-form" class="form-spacing">
+        <input type="text" placeholder="Enter a city.." id="city-input" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="weather-info">
+        <h1>Pretoria</h1>
+        <p class="details">Saturday 15:32, moderate rain</p>
+        <p class="humidity-wind">
+          Humidity: <span class="highlight">87%</span>, Wind:
+          <span class="highlight">7.2km/h</span>
+        </p>
+        <div class="temp">
+          <span class="icon">🌩️</span>
+          <span class="degrees">17</span><span class="unit">°C</span>
+        </div>
+      </div>
+
+      <hr />
+
+      <footer>
+        This project was coded 👩🏽‍💻 by
+        <a href="https://www.linkedin.com/in/zikona-mnyaka-ab1ba0223/"
+          >Ziickey Mnyaka
+        </a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
