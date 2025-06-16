@@ -89,7 +89,7 @@ form.addEventListener("submit", function (event) {
     return;
   }
 
-  let apiKey = "9f095a90fd43bd5feo73at306afd4f2a";
+  //have your apiKey here
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
   axios
